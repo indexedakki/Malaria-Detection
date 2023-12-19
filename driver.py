@@ -1,36 +1,3 @@
-# def superDigit(n, k):
-#     n=int(n)
-#     if n<10:
-#         return n
-#     else:
-#         n=str(n)*k
-#         n=list(n)
-#         n=[int(i) for i in n]
-#         r=sum(n)
-#         value=superDigit(r,1)
-        
-#     return value
-
-# nk = input().split()
-
-# n = nk[0]
-
-# k = int(nk[1])
-
-# result = superDigit(n, k)
-# print(result)
-
-# import itertools
-# item=[]
-# def combiner(zeros, ones):
-#     for indices in itertools.combinations(range(zeros+ones), ones):
-#         item = ['0'] * (zeros+ones)
-#         for index in indices:
-#             item[index] = '1'
-#         yield ''.join(item)
-# val= (list(combiner(3,1)))
-# pass
-
 import itertools
 item=[]
 def combiner(zeros, ones):
